@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import { React, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import "./styles.css"
 
@@ -51,6 +51,8 @@ export default function Books() {
         document.getElementById("newImgURL").value = ""
         document.getElementById("newImpact").value = ""
     }
+
+    useEffect(() => { })
 
     return (
         <>
